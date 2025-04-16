@@ -4,11 +4,6 @@
 #pip install llama-index-embeddings-huggingface
 # import library
 
-import os
-import getpass
-
-#os.environ['OPENAI_API_KEY'] = getpass.getpass('Enter your OpenAI API Key: ')
-
 from llama_index.core import Document, VectorStoreIndex, ServiceContext, SimpleDirectoryReader, Settings
 from llama_index.core.node_parser import SimpleNodeParser
 from llama_index.vector_stores.elasticsearch import ElasticsearchStore
