@@ -1,0 +1,7 @@
+llama_index>=0.7.0  # Update to a version that includes the ollama module
+
+llama_index-embeddings-huggingface
+llama-index-llms-ollama
+llama-index-core-node
+elasticsearch
+transformers
